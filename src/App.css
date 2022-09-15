@@ -11,7 +11,7 @@
   margin: 0;
   text-align: center;
   min-height: 100vh;
-  background-color: rgb(54, 54, 54);
+  background-color: black;
   color: white;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,14 @@
 h1 {
   font-family: var(--title-font-family);
   font-size: 64px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: var(--title-font-family);
+  color: var(--evil-pink);
+  font-size: 40px;
   font-weight: 400;
   text-transform: uppercase;
 }
