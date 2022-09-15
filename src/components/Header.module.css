@@ -1,5 +1,6 @@
 .header__container {
   background-color: black;
+  width: 100vw;
   height: 25vh;
   display: flex;
   justify-content: space-between;
