@@ -1,0 +1,31 @@
+.header__container {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__menuButton, .header__closeButton {
+  background: none;
+  background-size: contain;
+  height: 8vh;
+  width: 8vh;
+  margin: 4vw;
+}
+.header__menuButton {
+  background-image: url(../assets/icon-menu-white.png);
+}
+.header__closeButton {
+  background-image: url(../assets/icon-close.png);
+}
+
+.header__logo {
+  height: 18vh;
+  width: auto;
+}
+
+.header__contactButton{
+  height: 12vh;
+  margin: 4vw;
+}
