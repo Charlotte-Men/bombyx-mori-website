@@ -1,6 +1,5 @@
 .header__container {
   background-color: black;
-  color: #e32882;
   height: 25vh;
   display: flex;
   justify-content: space-between;
@@ -8,15 +7,16 @@
 }
 
 .header__menuButton {
-  height: 10vh;
+  height: 8vh;
   margin: 4vw;
 }
 
 .header__logo {
-  height: 20vh;
+  height: 18vh;
   width: auto;
 }
 
 .header__contactButton{
-  height: 15vh;
+  height: 12vh;
+  margin: 4vw;
 }

@@ -1,7 +1,7 @@
 import header from './Header.module.css';
 import logoBM from '../assets/logo-bombyx-mori.png';
-import logoContact from '../assets/logo-contact.png';
-import iconMenu from '../assets/icon-menu-lined.png'
+import logoContact from '../assets/icon-contact.png';
+import iconMenu from '../assets/icon-menu-white.png'
 
 const Header = () => {
   return (
