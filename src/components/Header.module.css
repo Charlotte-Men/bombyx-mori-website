@@ -5,6 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  align-self: flex-start
 }
 
 .header__menuButton, .header__closeButton {
@@ -24,6 +29,7 @@
 .header__logo {
   height: 18vh;
   width: auto;
+  cursor: pointer;
 }
 
 .header__contactButton{
