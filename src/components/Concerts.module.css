@@ -1,8 +1,43 @@
 .concerts__container {
   min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.concerts__container h1 {
+  margin: 30px auto;
 }
 
 .concerts__mainPhoto {
   width: 100vw;
   height: auto;
+}
+
+.concertsList__container {
+  width: 80vw;
+  margin: auto;
+  text-align: justify;
+}
+
+.concertsList__container span {
+  cursor: pointer;
+}
+
+.concertsList__container span:hover {
+  color: var(--evil-pink);
+}
+
+.concerts__comeAndPlay {
+  width: 80vw;
+  margin: 100px auto;
+}
+
+.concerts__comeAndPlay img {
+  width: 100%;
+}
+
+.concerts__container iframe {
+  margin-bottom: 100px;
+  max-width: 80vw;
 }
